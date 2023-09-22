@@ -6,7 +6,7 @@ def check_loan_eligibility(loan_delinquency_status, loan_current_outstanding_bal
     if loan_delinquency_status > 6 or loan_current_outstanding_balance == 0:
         return "Ineligible"
     else:
-        return "Eligible""""
+        return "Eligible
 def calculate_loan_result(loan_delinquency_status)
     return loan_delinquency_status * 30 if loan_delinquency_status > 0 else 0
 def check_loan_status(loan_current_outstanding_balance, loan_delinquency_status):
